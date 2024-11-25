@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knights Travails</title>
+</head>
+<body>
+    <form class='settings-form'>
+        <!-- <div class='position'> -->
+            <label for='startingX'>Starting X</label>
+            <input type='number' name='startingX' id='startingX' min='-7' max='7' value=0 />
+        <!-- </div> -->
+        <div class='position'>
+            <label for='startingY'>Starting Y</label>
+            <input type='number' name='startingX' id='startingY' min='-7' max='7' value=0 />
+        </div>
+        <div class='position'>
+            <label for='endingX'>Ending X</label>
+            <input type='number' name='endingX' id='endingX' min='-7' max='7' value=0 />
+        </div>
+        <div class='position'>
+            <label for='endingY'>Ending Y</label>
+            <input type='number' name='endingY' id='endingY' min='-7' max='7' value='0' />
+        </div>
+    <button type='button' class='settings-button'>Find path</button>
+    </form>
+    <div id='positions'></div>
+    <script src="javascript.js"></script>
+</body>
+</html>
