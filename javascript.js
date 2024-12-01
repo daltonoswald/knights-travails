@@ -46,8 +46,6 @@ settingsButton.addEventListener('click', () => {
   let startingY = Number(settingsForm[1].value)
   let endingX = Number(settingsForm[2].value)
   let endingY = Number(settingsForm[3].value)
-  console.log(typeof endingX)
-  console.log(endingX);
   console.log(startingX, startingY, endingX, endingY);
   knightMoves([startingX, startingY], [endingX, endingY])
 });
